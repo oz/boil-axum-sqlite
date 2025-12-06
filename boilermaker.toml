@@ -1,0 +1,15 @@
+[project]
+name = "boil-axum-sqlite"
+version = "0.1.0"
+description = "Axum and SQLite starter kit"
+default_lang = "rust"
+repository = "https://github.com/oz/boil-axum-sqlite"
+authors = ["oz <oz@cypr.io>"]
+keywords = ["boilermaker", "example", "rust", "axum", "sqlite"]
+website = "https://github.com/oz/boil-axum-sqlite/"
+license = "MIT"
+
+[variables]
+package_name = "hello"
+project_name = "Web Service"
+server_port = 3000

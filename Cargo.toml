@@ -1,0 +1,12 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.48", features = ["full"] }
+tower-http = { version = "0.6", features = ["fs"] }
+axum = { version = "0.8", features = ["macros"] }
+sqlx = { version = "0.8", features = ["runtime-tokio", "sqlite", "migrate"] }
+thiserror = "2.0"
+color-eyre = "0.6"
