@@ -12,4 +12,3 @@ license = "MIT"
 [variables]
 package_name = "hello"
 project_name = "Web Service"
-server_port = 3000
